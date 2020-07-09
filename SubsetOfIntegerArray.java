@@ -3,14 +3,14 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class Codechef
+class SubsetOfIntegerArray
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		int arr[] = {1,2,3,4};
 		List<List<Integer>> f_list= new ArrayList<>();
 		
-		Codechef cc = new Codechef();
+		SubsetOfIntegerArray cc = new SubsetOfIntegerArray();
 		cc.G_Subset(f_list,arr,0,arr.length);
 		for(int i=0;i<f_list.size();i++){
 		    List<Integer> t_list = f_list.get(i);
